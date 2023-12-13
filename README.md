@@ -4,7 +4,7 @@
 ### Author: Johnpaul Chukwu
 ### Email: j.chukwu493@mybvc.ca
 
-##DESCRIPTION
+## DESCRIPTION
 
 This Terraform configuration essentially sets up a basic infrastructure on AWS with a public subnet,
 allowing SSH, HTTP, and custom traffic on port 8080. The EC2 instance is configured to run a
