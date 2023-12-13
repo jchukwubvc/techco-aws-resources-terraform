@@ -11,8 +11,7 @@ allowing SSH, HTTP, and custom traffic on port 8080. The EC2 instance is configu
 basic user data script installing updates, Apache HTTP Server, and Docker upon launch.
 
 
-## APPLICATION CI/CD 
-### Prerequisite
+## Prerequisite
 * Terraform
 * Valid AWS Console Credentials (aws_access_key and aws_secret_key)
 
