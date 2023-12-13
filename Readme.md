@@ -1,5 +1,4 @@
-
-# TECHCO WEBSITE AWS TERRAFORM SCRIPTS
+# techco-aws-resources-terraform
 ## 
 
 ### Author: Johnpaul Chukwu
@@ -7,13 +6,14 @@
 
 ##DESCRIPTION
 
-This Terraform configuration essentially sets up a basic infrastructure with a public subnet, 
-allowing SSH, HTTP, and custom traffic on port 8080. The EC2 instance is configured to run a 
+This Terraform configuration essentially sets up a basic infrastructure on AWS with a public subnet,
+allowing SSH, HTTP, and custom traffic on port 8080. The EC2 instance is configured to run a
 basic user data script installing updates, Apache HTTP Server, and Docker upon launch.
 
 
-## APPLICATION CI/CD Prerequisite
-* Terraform 
+## APPLICATION CI/CD 
+### Prerequisite
+* Terraform
 * Valid AWS Console Credentials (aws_access_key and aws_secret_key)
 
 ```bash
